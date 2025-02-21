@@ -2,9 +2,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
-import Breadcrumb from '@/components/Breadcrumb'
-import { LocalBusinessJsonLd } from '@/components/JsonLd'
+import Header from '@/components/header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -48,12 +46,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <LocalBusinessJsonLd />
-      </head>
       <body className={inter.className}>
         <Header />
-        <Breadcrumb />
         <main className="min-h-screen pt-20">
           {children}
         </main>

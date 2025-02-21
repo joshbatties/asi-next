@@ -1,6 +1,4 @@
-import { WebPageJsonLd } from '@/components/JsonLd'
 import { Metadata } from 'next'
-import MetaTags from '@/components/MetaTags'
 
 export const metadata: Metadata = {
   title: 'Steel Construction Projects | ASI Steel Melbourne',
@@ -13,17 +11,6 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <>
-      <WebPageJsonLd
-        name="Steel Construction Projects - ASI Steel"
-        description="View our showcase of successful steel construction and fabrication projects across Melbourne and Victoria."
-        type="CollectionPage"
-      />
-      <MetaTags
-        title="Steel Construction Projects | ASI Steel Melbourne"
-        description="Explore our portfolio of successful steel construction projects. Quality steel solutions for commercial and industrial builds in Melbourne."
-        image="/images/projects-social.jpg"
-        pathname="/projects"
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
