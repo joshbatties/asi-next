@@ -37,7 +37,7 @@ const Hero = () => {
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-light tracking-tight bg-gradient-to-br from-white from-30% via-white via-50% to-blue-600 text-transparent bg-clip-text mb-4">
               Ace Steel Innovations
             </h1>
-            <p className="text-sm md:text-base text-gray-300 font-light italic mb-8">
+            <p className="text-sm md:text-sm text-gray-300 font-light italic mb-8">
               Proudly supplying the Australian market with innovative steel solutions
             </p>
             <div className="text-center md:text-left inline-block w-full md:w-auto">
